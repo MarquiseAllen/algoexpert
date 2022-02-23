@@ -1,7 +1,7 @@
 class Arrays() {
 
     /**
-     * Time complexity is O(n²) because of n the array is used a for loop within a for loop
+     * Time complexity is O(n²) because of n the array is used in a for loop within a for loop
      */
     fun twoNumberSum(array: MutableList<Int>, targetSum: Int): List<Int> {
         for (i in 0 until array.size) {
